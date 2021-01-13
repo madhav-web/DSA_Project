@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mph | sign up</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body class="customer-signup">
+    <div
+      class="container-fluid d-flex flex-column justify-content-center"
+      style="min-height: 100vh; padding: 0;"
+    >
+      <div class="jumbotron text-center">
+        <h2 class="display-4">Welcome Aboard</h2>
+      </div>
+      <div class="row m-3 d-flex align-items-center justify-content-center">
+        <div class="col-lg-4 col-sm-1">
+          <img
+            src="../assets/images/undraw_access_account_99n5.svg"
+            alt=""
+            width="100%"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-lg-8 col-sm-11">
+          <div class="card rounded bg-light">
+            <div class="card-body">
+              <form autocomplete="off">
+                <div class="form-group">
+                  <label for="signup-email"
+                    ><i class="fa fa-envelope"></i> Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    required
+                    placeholder="jhon.doe@example.com"
+                    id="signup-email"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="signup-password"
+                    ><i class="fa fa-lock"></i> Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="signup-password"
+                    placeholder="that's your secret"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="signup-confirm-password"
+                    ><i class="fa fa-lock"></i>Confirm password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="signup-confirm-password"
+                    placeholder="type the same password"
+                    required
+                  />
+                </div>
+                <div class="form-group form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="terms-conditions"
+                    required
+                  />
+                  <label class="form-check-label" for="terms-conditions"
+                    >agree to
+                    <a href="#" class="card-link">terms and condition</a></label
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Create Account
+                </button>
+                <div class="d-flex">
+                  <hr class="w-25" />
+                  <span>or use</span>
+                  <hr class="w-25" />
+                </div>
+                <div
+                  class="d-flex justify-content-around align-items-center flex-wrap"
+                >
+                  <button
+                    class="btn d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fab fa-facebook fa-2x mx-2"></i>
+                  </button>
+                  <button
+                    class="btn d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fab fa-linkedin fa-2x mx-2"></i>
+                  </button>
+                  <button
+                    class="btn d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fab fa-google fa-2x mx-2"></i>
+                  </button>
+                </div>
+              </form>
+              <small class="font-weight-bolder"
+                >Already have an account?
+                <a href="#" class="card-link"> Log In</a></small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

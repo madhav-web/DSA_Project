@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("./partials/header.ejs") %>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">MPH</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="ml-auto navbar-nav d-flex align-items-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/user/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-outline-info rounded-pill"><a class="nav-link" href="#">Sign Up</a></button>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              For Drivers
+            </a>
+            <div class="dropdown-menu shadow-sm" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Login</a>
+              <a class="dropdown-item" href="#">Sign Up</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- ORDER IS IMPORTANT -->
+    <script src="../public/assets/js/jquery.min.js"></script>
+    <script src="../public/assets/js/popper.min.js"></script>
+    <script src="../public/assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
