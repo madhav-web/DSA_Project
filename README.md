@@ -66,9 +66,9 @@ Please read [CONTRIBUTING.md](https://github.com/hayat-tamboli/mph/tree/master/.
 
 ## Authors
 
-* **Hayat Tamboli** - *frontend work* - [hayat-tamboli](https://github.com/hayat-tamboli)
+* **Hayat Tamboli & Madhav Goel** - *frontend work*
 
-See also the list of [contributors](https://github.com/hayat-tamboli/mph/contributors) who participated in this project.
+
 
 ## License
 
